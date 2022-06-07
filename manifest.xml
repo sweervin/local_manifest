@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<manifest>
+
+
+<!-- Remotes -->
+        <remote name="sweervin"
+          fetch="https://github.com/sweervin" />
+          
+        <remote name="arvind"
+          fetch="https://github.com/MasterAwesome" />
+
+
+<!-- Device tree -->
+<project name="android_device_xiaomi_laurel_sprout" path="device/xiaomi/laurel_sprout" remote="sweervin" revision="arrow-12.1" />
+
+<!-- Vendor blobs -->
+<project name="android_vendor_xiaomi_laurel_sprout" path="vendor/xiaomi/laurel_sprout" remote="sweervin" revision="arrow-12.1" />
+
+<!-- Kernel Source -->
+<project name="android_kernel_xiaomi_laurel_sprout" path="kernel/xiaomi/laurel_sprout" remote="arvind" revision="lineage-18.1" />
+
+
+<!-- Project replacements -->
+        <remove-project name="android_frameworks_base" />
+        <project name="android_frameworks_base" path="frameworks/base" remote="sweervin" revision="arrow-12.1" />
+
+        <remove-project name="android_hardware_interfaces" />
+        <project name="android_hardware_interfaces" path="hardware/interfaces" remote="sweervin" revision="arrow-12.1" />
+       
+        <remove-project name="android_bionic" />
+        <project name="android_bionic" path="bionic" remote="sweervin" revision="arrow-12.1" />
+      
+      
+</manifest>
