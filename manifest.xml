@@ -8,8 +8,8 @@
         <remote name="sweervin"
           fetch="https://github.com/sweervin" />
           
-        <remote name="arvind"
-          fetch="https://github.com/MasterAwesome" />
+        <remote name="harukey"
+          fetch="https://github.com/HarukeyUA" />
 
 
 <!-- Device tree -->
@@ -19,7 +19,7 @@
 <project name="android_vendor_xiaomi_laurel_sprout" path="vendor/xiaomi/laurel_sprout" remote="sweervin" revision="arrow-12.1" />
 
 <!-- Kernel Source -->
-<project name="android_kernel_xiaomi_laurel_sprout" path="kernel/xiaomi/laurel_sprout" remote="arvind" revision="lineage-18.1" />
+<project name="android_kernel_xiaomi_laurel_sprout" path="kernel/xiaomi/laurel_sprout" remote="harukey" revision="lineage-18.1" />
 
 
 <!-- Project replacements -->
